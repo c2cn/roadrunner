@@ -7,7 +7,7 @@ import (
 	"github.com/spiral/roadrunner"
 	rr "github.com/spiral/roadrunner/cmd/rr/cmd"
 	"github.com/spiral/roadrunner/cmd/util"
-	rrhttp "github.com/spiral/roadrunner/service/http"
+	rrhttp "github.com/spiral/roadrunner/plugins/http"
 	"net"
 	"net/http"
 	"strings"

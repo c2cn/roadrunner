@@ -4,8 +4,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/spf13/cobra"
 	rr "github.com/spiral/roadrunner/cmd/rr/cmd"
-	rrlimit "github.com/spiral/roadrunner/service/limit"
-	"github.com/spiral/roadrunner/service/metrics"
+	rrlimit "github.com/spiral/roadrunner/plugins/limit"
+	"github.com/spiral/roadrunner/plugins/metrics"
 )
 
 func init() {

@@ -26,16 +26,16 @@ import (
 	rr "github.com/spiral/roadrunner/cmd/rr/cmd"
 
 	// services (plugins)
-	"github.com/spiral/roadrunner/service/env"
-	"github.com/spiral/roadrunner/service/gzip"
-	"github.com/spiral/roadrunner/service/headers"
-	"github.com/spiral/roadrunner/service/health"
-	"github.com/spiral/roadrunner/service/http"
-	"github.com/spiral/roadrunner/service/limit"
-	"github.com/spiral/roadrunner/service/metrics"
-	"github.com/spiral/roadrunner/service/reload"
-	"github.com/spiral/roadrunner/service/rpc"
-	"github.com/spiral/roadrunner/service/static"
+	"github.com/spiral/roadrunner/plugins/env"
+	"github.com/spiral/roadrunner/plugins/gzip"
+	"github.com/spiral/roadrunner/plugins/headers"
+	"github.com/spiral/roadrunner/plugins/health"
+	"github.com/spiral/roadrunner/plugins/http"
+	"github.com/spiral/roadrunner/plugins/limit"
+	"github.com/spiral/roadrunner/plugins/metrics"
+	"github.com/spiral/roadrunner/plugins/reload"
+	"github.com/spiral/roadrunner/plugins/rpc"
+	"github.com/spiral/roadrunner/plugins/static"
 
 	// additional commands and debug handlers
 	_ "github.com/spiral/roadrunner/cmd/rr/http"

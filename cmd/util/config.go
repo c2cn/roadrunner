@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/spf13/viper"
-	"github.com/spiral/roadrunner/service"
+	"github.com/spiral/roadrunner/plugins"
 	"os"
 	"path/filepath"
 	"strings"
@@ -16,7 +16,7 @@ type ConfigWrapper struct {
 }
 
 // Get nested config section (sub-map), returns nil if section not found.
-func (w *ConfigWrapper) Get(key string) service.Config {
+func (w *ConfigWrapper) Get(key string) plugins.Config {
 	sub := w.v.Sub(key)
 	if sub == nil {
 		return nil

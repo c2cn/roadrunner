@@ -24,8 +24,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spiral/roadrunner/cmd/util"
-	"github.com/spiral/roadrunner/service"
-	"github.com/spiral/roadrunner/service/limit"
+	"github.com/spiral/roadrunner/plugins"
+	"github.com/spiral/roadrunner/plugins/limit"
 	"log"
 	"net/http"
 	"net/http/pprof"
@@ -48,7 +48,7 @@ var (
 	Logger = logrus.New()
 
 	// Container - shared service bus.
-	Container = service.NewContainer(Logger)
+	Container = plugins.NewContainer(Logger)
 
 	// CLI is application endpoint.
 	CLI = &cobra.Command{

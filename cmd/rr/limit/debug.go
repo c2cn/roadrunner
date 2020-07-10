@@ -6,7 +6,7 @@ import (
 	"github.com/spiral/roadrunner"
 	rr "github.com/spiral/roadrunner/cmd/rr/cmd"
 	"github.com/spiral/roadrunner/cmd/util"
-	"github.com/spiral/roadrunner/service/limit"
+	"github.com/spiral/roadrunner/plugins/limit"
 )
 
 func init() {

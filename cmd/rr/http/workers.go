@@ -25,7 +25,7 @@ import (
 	"github.com/spf13/cobra"
 	rr "github.com/spiral/roadrunner/cmd/rr/cmd"
 	"github.com/spiral/roadrunner/cmd/util"
-	"github.com/spiral/roadrunner/service/http"
+	"github.com/spiral/roadrunner/plugins/http"
 	"net/rpc"
 	"os"
 	"os/signal"
