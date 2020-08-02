@@ -64,7 +64,7 @@ func main() {
 
 
 	err = container.Init()
-	err, res := container.Serve()
+	res, err := container.Serve()
 
 	for {
 		select {
