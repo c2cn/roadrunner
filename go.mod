@@ -19,7 +19,7 @@ require (
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/cobra v0.0.6
 	github.com/spf13/viper v1.6.2
-	github.com/spiral/cascade v1.0.0-beta5
+	github.com/spiral/endure v1.0.0-beta6
 	github.com/spiral/goridge/v2 v2.4.4
 	github.com/stretchr/testify v1.6.1
 	github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a

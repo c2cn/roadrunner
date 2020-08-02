@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/spiral/cascade"
+	"github.com/spiral/endure"
 	"github.com/spiral/roadrunner/plugins/env"
 	"github.com/spiral/roadrunner/plugins/gzip"
 	"github.com/spiral/roadrunner/plugins/headers"
@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	container, err := cascade.NewContainer(cascade.DebugLevel)
+	container, err := endure.NewContainer(endure.DebugLevel)
 	if err != nil {
 		panic(err)
 	}

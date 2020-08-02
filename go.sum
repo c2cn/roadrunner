@@ -186,8 +186,8 @@ github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnIn
 github.com/spf13/viper v1.4.0/go.mod h1:PTJ7Z/lr49W6bUbkmS1V3by4uWynFiR9p7+dSq/yZzE=
 github.com/spf13/viper v1.6.2 h1:7aKfF+e8/k68gda3LOjo5RxiUqddoFxVq4BKBPrxk5E=
 github.com/spf13/viper v1.6.2/go.mod h1:t3iDnF5Jlj76alVNuyFBk5oUMCvsrkbvZK0WQdfDi5k=
-github.com/spiral/cascade v1.0.0-beta5 h1:8SM0b89PJO/lf9Wek6fpbfP5s5JyGCs4irsEgRieTlg=
-github.com/spiral/cascade v1.0.0-beta5/go.mod h1:Val6/YdQY/Ikjel7QMPsGYV2FwZCI41eZo1GKcNGTHM=
+github.com/spiral/endure v1.0.0-beta6 h1:Kl8xHM/7sSCfpaBndJnJ1zaHVcEeug05OeiemauczwA=
+github.com/spiral/endure v1.0.0-beta6/go.mod h1:ZqOMVUfVNlUKzhO3WpbqTqV4q4fKOJG8qCyqBYvmL6g=
 github.com/spiral/goridge/v2 v2.4.4 h1:9wV6YtvwIj8mbCLadJ1g4/Zh3YQ29alvxL5cuPWY90I=
 github.com/spiral/goridge/v2 v2.4.4/go.mod h1:C/EZKFPON9lypi8QO7I5ObgVmrIzTmhZqFz/tmypcGc=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
