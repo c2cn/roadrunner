@@ -9,7 +9,7 @@ use Spiral\RoadRunner;
 $rr = new RoadRunner\Worker($relay);
 
 $used = false;
-while ($in = $rr->receive($ctx)) {
+while ($in = $rr->waitPayload()) {
     try {
         if ($used) {
             // kill on second attempt
@@ -18,7 +18,7 @@ while ($in = $rr->receive($ctx)) {
         }
 
         $used = true;
-        $rr->send((string)getmypid());
+        $rr->respond(new RoadRunner\Payload((string)getmypid()));
     } catch (\Throwable $e) {
         $rr->error((string)$e);
     }
