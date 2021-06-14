@@ -20,8 +20,8 @@ require (
 	github.com/shirou/gopsutil v3.21.2+incompatible
 	github.com/spf13/viper v1.7.1
 	// SPIRAL ====
-	github.com/spiral/endure v1.0.0
-	github.com/spiral/errors v1.0.9
+	github.com/spiral/endure v1.0.2
+	github.com/spiral/errors v1.0.10
 	github.com/spiral/goridge/v3 v3.0.1
 	// ===========
 	github.com/stretchr/testify v1.7.0
@@ -30,7 +30,7 @@ require (
 	github.com/yookoala/gofast v0.6.0
 	go.etcd.io/bbolt v1.3.5
 	go.uber.org/multierr v1.6.0
-	go.uber.org/zap v1.16.0
+	go.uber.org/zap v1.17.0
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 	golang.org/x/sys v0.0.0-20210309074719-68d13333faf2
